@@ -1,0 +1,134 @@
+@font-face {
+  font-family: ChakraPetch;
+  src: url(../fonts/ChakraPetch-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 114px;
+  background-color: #18181B;
+}
+.header__background {
+  position: absolute;
+  margin: 0 0 0 704px;
+}
+.header__content {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 31px 0 0 0;
+  margin: 0 0 0 120px;
+}
+.header__content nav {
+  width: 518px;
+  display: flex;
+  justify-content: space-between;
+  font-family: ChakraPetch;
+}
+.header__content__item1 {
+  font-weight: 600;
+}
+.header__content__item {
+  display: flex;
+  align-items: center;
+}
+.header__content__item img {
+  margin: 0 0 0 4px;
+}
+.header__content__btn {
+  width: 126px;
+  height: 52px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-family: ChakraPetch;
+}
+
+.banner {
+  background-color: #18181B;
+}
+.banner__background {
+  position: absolute;
+  margin: 170px 0 0 0;
+}
+.banner__light {
+  position: absolute;
+  margin: 0 0 0 565px;
+  z-index: 1;
+}
+.banner__content {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 120px;
+}
+.banner__content__text {
+  margin: 87px 0 0 0;
+  font-family: ChakraPetch;
+}
+.banner__content__text h1 {
+  width: 540px;
+  font-size: 64px;
+  line-height: 83.2px;
+  color: white;
+}
+.banner__content__text p {
+  width: 446px;
+  line-height: 28px;
+  color: #D1D1D1;
+}
+.banner__content__text__btn {
+  width: 206px;
+  height: 50px;
+  font-family: ChakraPetch;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: white;
+  background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  border: none;
+  margin: 32px 0 0 0;
+}
+.banner__content__text__clients {
+  display: flex;
+  margin: 42px 0 0 0;
+  align-items: center;
+}
+.banner__content__text__clients__happy {
+  width: 280px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  font-family: ChakraPetch;
+}
+.banner__content__text__clients__happy p {
+  margin: 0 0 0 18px;
+  color: white;
+}
+.banner__content__text__clients__happy span {
+  color: #D1D1D1;
+}
+.banner__content__text__clients__happy__underlining {
+  position: absolute;
+  margin: 30px 0 0 140px;
+}
+.banner__content__text__clients__video {
+  position: relative;
+  z-index: 2;
+  margin: 0 0 0 75px;
+}
+.banner__content__img {
+  position: relative;
+  z-index: 2;
+}/*# sourceMappingURL=Homepage.css.map */
