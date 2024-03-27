@@ -131,4 +131,213 @@ body {
 .banner__content__img {
   position: relative;
   z-index: 2;
+}
+
+.whyChooseUs {
+  background-color: #18181B;
+}
+.whyChooseUs__content {
+  width: 1200px;
+  height: 357px;
+  background-color: #252532;
+  position: relative;
+  z-index: 2;
+  margin: 0 0 0 120px;
+  padding: 42px 42px 0 64px;
+}
+.whyChooseUs__content__items {
+  display: flex;
+  justify-content: space-between;
+}
+.whyChooseUs__content__items__item {
+  width: 324px;
+}
+.whyChooseUs__content__items__item p:nth-of-type(1) {
+  font-family: ChakraPetch;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+  margin: 42px 0 0 0;
+}
+.whyChooseUs__content__items__item p:nth-of-type(2) {
+  font-family: ChakraPetch;
+  font-size: 14px;
+  line-height: 28px;
+  color: #B0B0B2;
+  margin: 12px 0 0 0;
+}
+
+.vrServices {
+  background-color: #18181B;
+  padding: 120px 0 0 0;
+  display: flex;
+}
+.vrServices__backgroundOne {
+  position: absolute;
+  margin: 125px 0 0 120px;
+}
+.vrServices__backgroundTwo {
+  position: absolute;
+}
+.vrServices__backgroundThree {
+  position: absolute;
+  margin: 517px 0 0 452px;
+  z-index: 3;
+}
+.vrServices__img {
+  margin: 0 0 0 145px;
+  z-index: 2;
+}
+.vrServices__text {
+  width: 550px;
+  margin: 81px 0 0 80px;
+  font-family: ChakraPetch;
+}
+.vrServices__text__gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  letter-spacing: 14%;
+  line-height: 20.8px;
+  font-weight: 700;
+}
+.vrServices__text__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.5%;
+  color: white;
+  margin: 12px 0 0 0;
+}
+.vrServices__text__subtitle {
+  width: 528px;
+  line-height: 28px;
+  color: #D1D1D1;
+  margin: 12px 0 0 0;
+}
+.vrServices__text__points {
+  margin: 24px 0 0 0;
+}
+.vrServices__text__points__point {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0 0;
+  color: white;
+}
+.vrServices__text__points__point p {
+  margin: 0 0 0 12px;
+}
+.vrServices__text__btn {
+  width: 168px;
+  height: 50px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  border: none;
+  color: white;
+  margin: 32px 0 0 0;
+}
+
+.ourServices {
+  background-color: #18181B;
+}
+.ourServices__background {
+  position: absolute;
+  margin: 0 0 0 827px;
+}
+.ourServices__content {
+  width: 1158px;
+  display: flex;
+  justify-content: space-between;
+  padding: 173px 0 0 0;
+  margin: 0 0 0 120px;
+}
+.ourServices__content__title {
+  width: 260px;
+}
+.ourServices__content__title p:nth-of-type(1) {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  letter-spacing: 14%;
+  line-height: 20.8px;
+  font-family: ChakraPetch;
+  font-weight: 700;
+}
+.ourServices__content__title p:nth-of-type(2) {
+  font-weight: 600;
+  font-family: ChakraPetch;
+  font-size: 48px;
+  letter-spacing: -0.5%;
+  color: white;
+  line-height: 58px;
+}
+.ourServices__content__text {
+  width: 635px;
+  line-height: 28px;
+  font-family: ChakraPetch;
+  color: #D1D1D1;
+}
+
+.cards {
+  background-color: #18181B;
+  padding: 46px 0 0 0;
+}
+.cards__content {
+  display: flex;
+  margin: 0 89px;
+}
+.cards__content__group {
+  margin: 0 0 0 31px;
+}
+.cards__content__group__card {
+  width: 379px;
+  height: 291px;
+  background-color: rgba(37, 37, 50, 0.6);
+  padding: 38px 56px 51px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
+}
+.cards__content__group__card p:nth-of-type(1) {
+  font-family: ChakraPetch;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+  margin: 60px 0 0 0;
+}
+.cards__content__group__card p:nth-of-type(2) {
+  font-family: ChakraPetch;
+  font-size: 14px;
+  line-height: 28px;
+  color: #B0B0B2;
+  margin: 12px 0 0 0;
+}
+.cards__content__group__card__btn {
+  width: 177px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.0588235294);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ChakraPetch;
+  letter-spacing: 1.5px;
+  border: 1px solid white;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin: 170px 0 0 70px;
+}
+.cards__content__group__card__cursor {
+  position: absolute;
+  z-index: 2;
+  margin: 205px 0 0 150px;
+}
+.cards__content__group__card:nth-of-type(2) {
+  margin: 32px 0 0 0;
+}
+.cards__content__group:nth-of-type(2) {
+  margin-top: 57px;
+}
+.cards__content__group:nth-of-type(3) {
+  margin-top: 135px;
 }/*# sourceMappingURL=Homepage.css.map */
