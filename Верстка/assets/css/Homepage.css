@@ -133,10 +133,10 @@ body {
   z-index: 2;
 }
 
-.whyChooseUs {
+.opportunities {
   background-color: #18181B;
 }
-.whyChooseUs__content {
+.opportunities__content {
   width: 1200px;
   height: 357px;
   background-color: #252532;
@@ -145,21 +145,21 @@ body {
   margin: 0 0 0 120px;
   padding: 42px 42px 0 64px;
 }
-.whyChooseUs__content__items {
+.opportunities__content__items {
   display: flex;
   justify-content: space-between;
 }
-.whyChooseUs__content__items__item {
+.opportunities__content__items__item {
   width: 324px;
 }
-.whyChooseUs__content__items__item p:nth-of-type(1) {
+.opportunities__content__items__item p:nth-of-type(1) {
   font-family: ChakraPetch;
   font-size: 20px;
   line-height: 26px;
   color: white;
   margin: 42px 0 0 0;
 }
-.whyChooseUs__content__items__item p:nth-of-type(2) {
+.opportunities__content__items__item p:nth-of-type(2) {
   font-family: ChakraPetch;
   font-size: 14px;
   line-height: 28px;
@@ -195,8 +195,7 @@ body {
 }
 .vrServices__text__gradient {
   color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
   letter-spacing: 14%;
   line-height: 20.8px;
@@ -258,8 +257,7 @@ body {
 }
 .ourServices__content__title p:nth-of-type(1) {
   color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
   letter-spacing: 14%;
   line-height: 20.8px;
@@ -313,6 +311,9 @@ body {
   color: #B0B0B2;
   margin: 12px 0 0 0;
 }
+.cards__content__group__card span {
+  opacity: 0.1;
+}
 .cards__content__group__card__btn {
   width: 177px;
   height: 50px;
@@ -325,7 +326,7 @@ body {
   color: white;
   position: absolute;
   z-index: 1;
-  margin: 170px 0 0 70px;
+  margin: 175px 0 0 70px;
 }
 .cards__content__group__card__cursor {
   position: absolute;
