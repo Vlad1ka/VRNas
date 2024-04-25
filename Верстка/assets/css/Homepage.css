@@ -195,7 +195,8 @@ body {
 }
 .vrServices__text__gradient {
   color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
   letter-spacing: 14%;
   line-height: 20.8px;
@@ -257,7 +258,8 @@ body {
 }
 .ourServices__content__title p:nth-of-type(1) {
   color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
   letter-spacing: 14%;
   line-height: 20.8px;
@@ -341,4 +343,75 @@ body {
 }
 .cards__content__group:nth-of-type(3) {
   margin-top: 135px;
+}
+
+.needs {
+  background-color: #18181B;
+  height: 850px;
+}
+.needs__content {
+  width: 1440px;
+  display: flex;
+  padding: 150px 0 0 0;
+}
+.needs__content__text {
+  font-family: ChakraPetch;
+  margin: 94px 0 0 120px;
+}
+.needs__content__text__gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  letter-spacing: 14%;
+  line-height: 20.8px;
+  font-weight: 700;
+}
+.needs__content__text__title {
+  width: 550px;
+  line-height: 58px;
+  font-weight: 600;
+  letter-spacing: -0.5%;
+  font-size: 48px;
+  margin: 12px 0 0 0;
+  color: white;
+}
+.needs__content__text__points {
+  width: 548px;
+  margin: 32px 0 0 0;
+}
+.needs__content__text__points__point {
+  margin: 48px 0 0 0;
+}
+.needs__content__text__points__point__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.needs__content__text__points__point hr {
+  margin: 12px 0 0 0;
+  border: 1px solid rgba(255, 255, 255, 0.3490196078);
+}
+.needs__content__text__points__point__description {
+  line-height: 28px;
+  color: #D1D1D1;
+  margin: 12px 0 0 0;
+}
+.needs__content__text__points__point:nth-of-type(1) {
+  margin: 0;
+}
+.needs__content__img {
+  width: 608px;
+  position: absolute;
+}
+.needs__content__img img:nth-of-type(1) {
+  position: absolute;
+  margin: 571px 0 0 1123px;
+}
+.needs__content__img img:nth-of-type(2) {
+  margin: 0 0 0 605px;
 }/*# sourceMappingURL=Homepage.css.map */
