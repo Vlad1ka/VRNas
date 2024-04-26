@@ -262,7 +262,6 @@ body{
                 color: white;
 
                 p{
-                    
                     margin: 0 0 0 12px;
                 }
             }
@@ -272,6 +271,7 @@ body{
             width: 168px;
             height: 50px;
             font-weight: 700;
+            font-family: ChakraPetch;
             letter-spacing: 1.5px;
             background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
             border: none;
@@ -477,6 +477,97 @@ body{
             img:nth-of-type(2){
                 margin: 0 0 0 605px;
             }
+        }
+    }
+}
+
+.bringing{
+    padding: 150px 0 0 0;
+    background-color: #18181B;
+
+    &__background{
+        position: absolute;
+        z-index: 1;
+    }
+
+    &__content{
+        font-family: ChakraPetch;
+
+        &__gradient{
+            color: transparent;
+            background-clip: text;
+            background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+            letter-spacing: 14%;
+            line-height: 20.8px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        &__title{
+            width: 750px;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            letter-spacing: -0.5%;
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 12px;
+        }
+
+        &__turntable{
+            position: relative;
+            z-index: 2;
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 48px;
+
+            &__text{
+                position: absolute;
+                margin: 52px 0 0 34px;
+
+                &__btn{
+                    width: 90px;
+                    height: 24px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    font-family: ChakraPetch;
+                    color: white;
+                    background-color: #FFFFFF4D;
+                    border: none;
+                    border-radius: 16px;
+                }
+
+                p{
+                    font-size: 36px;
+                    font-weight: 500;
+                    line-height: 44px;
+                    color: white;
+                    letter-spacing: -2%;
+                    margin: 12px 0 0 0;
+                }
+            }
+
+            &__play{
+                position: absolute;
+                margin: 211px 0 0 550px;
+            }
+            &__line{
+                position: absolute;
+                margin: 473px 0 0 34px;
+            }
+        }
+
+        &__btn{
+            width: 182px;
+            height: 50px;
+            font-family: ChakraPetch;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+            margin: 48px 0 0 628px;
+            color: white;
+            border: none;
         }
     }
 }
