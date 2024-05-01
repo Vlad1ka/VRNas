@@ -15,8 +15,10 @@
 body{
     width: 1440px;
     margin: 0 auto;
+    background-color: #18181B;
 }
 
+// Стили для шапки
 .header{
     height: 114px;
     background-color: #18181B;
@@ -66,6 +68,7 @@ body{
     }
 }
 
+// Стили для баннера
 .banner{
     background-color: #18181B;
 
@@ -158,6 +161,7 @@ body{
     }
 }
 
+// Стили для блока с возможностями 
 .opportunities{
     background-color: #18181B;
 
@@ -197,6 +201,7 @@ body{
     }
 }
 
+// Стили для блока с VR-услугами
 .vrServices{
     background-color: #18181B;
     padding: 120px 0 0 0;
@@ -281,6 +286,7 @@ body{
     }
 }
 
+// Стили для блока с описанием сервиса
 .ourServices{
     background-color: #18181B;
 
@@ -326,6 +332,7 @@ body{
     }
 }
 
+// Стили для блока с карточками
 .cards{
     background-color: #18181B;
     padding: 46px 0 0 0;
@@ -399,6 +406,7 @@ body{
     }
 }
 
+// Стили для блока с выбором
 .needs{
     background-color: #18181B;
     height: 850px;
@@ -481,6 +489,7 @@ body{
     }
 }
 
+// Стили для блока с воплощением мечты
 .bringing{
     padding: 150px 0 0 0;
     background-color: #18181B;
@@ -568,6 +577,507 @@ body{
             margin: 48px 0 0 628px;
             color: white;
             border: none;
+        }
+    }
+}
+
+// Стили для блока с отзывами
+.saying{
+    background-color: #18181B;
+    padding: 100px 0 0 0;
+    height: 1500px;
+
+    &__background{
+        position: absolute;
+        margin: 0 0 0 97px;
+    }
+
+    &__man{
+        position: absolute;
+        margin: 271px 0 0 229px;
+    }
+
+    &__content{
+        font-family: ChakraPetch;
+
+        &__gradient{
+            color: transparent;
+            background-clip: text;
+            background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+            letter-spacing: 14%;
+            line-height: 20.8px;
+            font-weight: 700;
+            text-align: center;
+            margin: 111px 0 0 0;
+        }
+
+        &__title{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 48px;
+            color: white;
+            letter-spacing: -0.5%;
+            margin: 12px 0 0 0;
+            text-align: center;
+        }
+
+        &__comment{
+            display: flex;
+            align-items: center;
+            margin: 95px 0 0 120px;
+
+            &__avatar{
+
+                img:nth-of-type(1){
+                    position: absolute;
+                    margin: 60px 0 0 31px;
+                }
+            }
+
+            &__container{
+
+                p{
+                    width: 255px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #D1D1D1;
+                    position: absolute;
+                    margin: 18px 0 0 23px;
+                }
+
+                p:nth-of-type(2){ 
+                    margin: 86px 0 0 23px;
+                }
+
+                span{
+                    color: white;
+                }
+
+                &__line{
+                    position: absolute;
+                    margin: 110px 0 0 23px;
+                }
+            }
+        }
+    }
+
+    &__avatar__1{
+        position: absolute;
+        margin: 259px 0 0 860px;
+    }
+    &__avatar__2{
+        position: absolute;
+        margin: 602px 0 0 1133px;
+    }
+    &__avatar__3{
+        position: absolute;
+        margin: 867px 0 0 673px;
+    }
+    &__avatar__4{
+        position: absolute;
+        margin: 916px 0 0 262px;
+    }
+    &__avatar__5{
+        position: absolute;
+        margin: 1091px 0 0 1036px;
+    }
+}
+
+// Стили для блока с доступными VR-услугами
+.servicesForEveryone{
+    height: 940px;
+    font-family: ChakraPetch;
+    background-color: #18181B;
+    padding: 100px 0 0 120px;
+
+    &__content{
+
+        &__gradient{
+            color: transparent;
+            background-clip: text;
+            background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+            letter-spacing: 14%;
+            line-height: 20.8px;
+            font-weight: 700;
+        }
+
+        &__title{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -0.5%;
+            margin: 12px 0 0 0;
+            color: white;
+        }
+
+        &__subtitle{
+            width: 625px;
+            line-height: 28px;
+            color: #D1D1D1;
+            margin: 16px 0 0 0;
+        }
+
+        &__affordable{
+
+            &__light{
+                position: absolute;
+                margin: 0 0 0 215px;
+                z-index: 1;
+            }
+
+            &__background{
+                margin: 40px 0 0 0;
+                position: absolute;
+                z-index: 2;
+            }
+
+            &__start{
+                width: 321px;
+                position: absolute;
+                z-index: 2;
+                margin: 453px 0 0 707px;
+
+                p{
+                    position: relative;
+                    z-index: 3;
+                    text-align: center;
+                }
+
+                p:nth-of-type(1){
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    margin: 20px 0 0 0;
+                    color: #D1D1D1;
+                }
+                p:nth-of-type(2){
+                    font-weight: 600;
+                    font-size: 60px;
+                    line-height: 66px;
+                    color: white;
+                }
+                p:nth-of-type(3){
+                    font-size: 12px;
+                    margin: 14px 0 0 0;
+                    color: #B0B0B2;
+                }
+
+                &__btn{
+                    width: 182px;
+                    height: 50px;
+                    margin: 14px 0 0 70px;
+                    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-family: ChakraPetch;
+                    letter-spacing: 1.5px;
+                    color: white;
+                    border: none;
+                    position: relative;
+                }
+
+                &__background{
+                    position: absolute;
+                }
+            }
+
+            &__content{
+                display: flex;
+
+                &__points{
+                    width: 640px;
+                    position: relative;
+                    z-index: 2;
+                    padding: 55px 0 0 42px;
+
+                    &__point{
+                        display: flex;
+                        margin: 32px 0 0 0;
+                        align-items: flex-start;
+
+                        &__text{
+                            height: 147px;
+                            margin: 0 0 0 16px;
+
+                            p:nth-of-type(1){
+                                font-size: 18px;
+                                line-height: 23.4px;
+                                color: white;
+                            }
+
+                            p:nth-of-type(2){
+                                line-height: 28px;
+                                color: #B0B0B2;
+                                margin: 12px 0 0 0;
+                            }
+                        }
+                    }
+                }
+                hr{
+                    height: 447px;
+                    margin: 81px 0 0 118px;
+                    border: 1px solid #FFFFFF;
+                    opacity: 0.1;
+                }
+            }
+        }
+    }
+}
+
+// Стили для блока с компанией
+.companies{
+    padding: 150px 0 0 0;
+    background-color: #18181B;
+
+    &__content{
+        font-family: ChakraPetch;
+
+        &__gradient{
+            color: transparent;
+            background-clip: text;
+            background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+            letter-spacing: 14%;
+            line-height: 20.8px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        &__title{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -0.5%;
+            text-align: center;
+            margin: 12px 0 0 0;
+            color: white;
+        }
+
+        &__parthers{
+            height: 800px;
+            margin: 58px 0 0 193px;
+
+            &__background{
+                position: absolute;
+            }
+
+            &__man{
+                position: absolute;
+                margin: 185px 0 0 45px;
+            }
+
+            &__icon__1{
+                position: absolute;
+                margin: 18px 0 0 476px;
+            }
+            &__icon__2{
+                position: absolute;
+                margin: 90px 0 0 241px;
+            }
+            &__icon__3{
+                position: absolute;
+                margin: 252px 0 0 72px;
+            }
+            &__icon__4{
+                position: absolute;
+                margin: 439px 0 0 15px;
+            }
+        }
+    }
+}
+
+// Стили для блока с новостями о виртуальной реальности
+.insights{
+    height: 870px;
+    padding: 100px 0 0 0;
+    background-color: #18181B;
+    font-family: ChakraPetch;
+
+    &__background__1{
+        position: absolute;
+        margin: 75px 0 0 0;
+    }
+
+    &__background__2{
+        position: absolute;
+        margin: 340px 0 0 0;
+    }
+
+    &__content{
+        margin: 0 0 0 120px;
+        &__text{
+            display: flex;
+
+            &__gradient{
+                color: transparent;
+                background-clip: text;
+                background-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+                letter-spacing: 14%;
+                line-height: 20.8px;
+                font-weight: 500;
+            }
+
+            &__title{
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+                color: white;
+                letter-spacing: -0.5%;
+                margin: 12px 0 0 0;
+            }
+
+            &__btn{
+                width: 140px;
+                height: 50px;
+                background-color: #FFFFFF0F;
+                color: white;
+                border: 1px solid white;
+                margin: 37px 0 0 228px;
+                font-family: ChakraPetch;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+            }
+        }
+
+        &__recent{
+            position: absolute;
+            z-index: 1;
+            margin: 72px 0 0 590px;
+        }
+
+        &__article{
+            position: relative;
+            z-index: 2;
+            p{
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 36.4px;
+                letter-spacing: -0.5%;
+                color: white;
+                margin: 104px 0 32px 0;
+            }
+
+            img:nth-of-type(1){
+                position: absolute;
+                margin: 328px 0 0 562px;
+            }
+        }
+    }
+}
+
+// Стили для блока с рассылкой
+.newsletter{
+    padding: 150px 0 0 0;
+    background-color: #18181B;
+
+    &__content{
+        width: 1200px;
+        height: 185px;
+        margin: 0 0 0 120px;
+        padding: 38px 74px 0 74px;
+        background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+        display: flex;
+        justify-content: space-between;
+        font-family: ChakraPetch;
+
+        &__title{
+            width: 520px;
+            font-weight: 600;
+            font-size: 40px;
+            letter-spacing: -0.5%;
+            line-height: 58px;
+            color: white;
+        }
+
+        &__email{
+            margin: 27px 0 0 0;
+
+            input{
+                width: 365px;
+                height: 56px;
+                background-color: #FFFFFF12;
+                color: white;
+                border: none;
+                font-family: ChakraPetch;
+                padding: 0 0 0 46px;
+            }
+
+            img{
+                position: absolute;
+            }
+
+            img:nth-of-type(1){
+                margin: 16px 0 0 14px;
+            }
+            img:nth-of-type(2){
+                margin: 3px 0 0 312px;
+            }
+        }
+    }
+}
+
+// Стили для подвала
+.footer{
+    height: 570px;
+    padding: 64px 0 0 0;
+    background-color: #18181B;
+    font-family: ChakraPetch;
+
+    &__background{
+        position: absolute;
+    }
+
+    &__content{
+        width: 1200px;
+        margin: 118px 118px 0 121px;
+
+        &__columns{
+            display: flex;
+            justify-content: space-between;
+
+            &__img{
+
+                &__icons{
+                    width: 244px;
+                    margin: 144px 0 0 0;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            &__column{
+
+                &__subtitle{
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                p{
+                    line-height: 28px;
+                    color: white;
+                    margin: 16px 0 0 0;
+                }
+
+                &__item{
+                    display: flex;
+                    align-items: center;
+                    margin: 16px 0 0 0;
+
+                    p{
+                        margin: 0 0 0 8px;
+                    }
+                }
+            }
+        }
+
+        &__line{
+            margin: 33px 0 0 0;
+        }
+
+        &__copyright{
+            color: white;
+            text-align: center;
+            margin: 32px 0 0 0;
         }
     }
 }
